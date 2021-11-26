@@ -10,7 +10,7 @@
          code_change/3]).
 -export_type([pool/0]).
 
--define(TIMEOUT, 5000).
+-define(TIMEOUT, 60000).
 
 -ifdef(pre17).
 -type pid_queue() :: queue().
